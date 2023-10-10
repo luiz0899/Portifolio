@@ -1,0 +1,27 @@
+@use '../variable'
+@use '../mixins'
+
+.Education-container
+    margin-bottom: 1rem
+
+    .Education-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .Education-card
+            @include mixins.center
+            display: inline
+            gap: 1rem
+            padding: 1rem
+            border: 1px solid #333
+            width: 45%
+            border-radius: variable.$card-border-radius
+
+            h3
+                color: variable.$text-color
+                margin-bottom: 0.5rem
+                font-size: 120%
+            p
+                font-size: 100%
+                margin-bottom:1rem
