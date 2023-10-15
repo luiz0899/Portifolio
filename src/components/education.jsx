@@ -6,7 +6,6 @@ const form = [
   { institution: "Senai", training: "Técnico Automação", city: "Tubarão" },
   { institution: "E.E.B Domingos Barbosa Cabral", training: "Ensino Médio", city: "Pescaria Brava" },
 ];
-
 const Education = () => {
   return (
     <section className='Education-container'>

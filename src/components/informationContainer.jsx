@@ -1,7 +1,6 @@
 import {AiFillPhone,AiFillEnvironment} from "react-icons/ai";
 
 import "../style/components/informationContainer.sass";
-
 const informationContainer = () => {
   return (
     <section id = "information">

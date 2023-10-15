@@ -8,7 +8,6 @@ const socialNetWorks = [
   { name: "instagram", link: "https://www.instagram.com/luuiz.pereira/", icon: <FaInstagram /> },
   { name: "facebook", link: "https://www.facebook.com/luishenrique.pereiracorrea", icon: <FaFacebook /> },
 
-
 ];
 
 const SocialNetWorks = () => {

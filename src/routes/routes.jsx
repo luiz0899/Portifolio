@@ -6,8 +6,9 @@ export default function MainRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route index element={<MainContext />} />
-                <Route path="/Gmail" element={<Gmail/>} />
+                <Route path="*" element={<MainContext/>} />
+                <Route path="/Portifolio/Gmail" element={<Gmail />} />
+
             </Routes>
         </BrowserRouter>
     )

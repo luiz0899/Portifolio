@@ -16,7 +16,7 @@ const Sidebar = () => {
       <a href="/" className='btn'>
         Home</a>
     
-      <a href="/Gmail" className='btn'>
+      <a href="/Portifolio/Gmail" className='btn'>
         Mandar e-mail</a>
         
       <a  href="https://portifolio44.files.wordpress.com/2023/10/curriculo2023.pdf" className='btn'>
