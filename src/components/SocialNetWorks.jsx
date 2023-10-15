@@ -1,4 +1,4 @@
-import '../style/components/SocialNetWorks.sass';
+import "../style/components/SocialNetWorks.sass";
 import{FaLinkedinIn,FaGithub,FaInstagram,FaFacebook} from 'react-icons/fa'
 
 const socialNetWorks = [
