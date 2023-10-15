@@ -2,8 +2,8 @@ import React from 'react';
 import '../style/components/education.sass'
 
 const form = [
-  { institution: "Senai", training: "Técnico Desenvolvimento", city: "Tubarão" },
-  { institution: "Senai", training: "Técnico Automação", city: "Tubarão" },
+  { institution: "Senai Tubarão", training: "Técnico Desenvolvimento", city: "Tubarão" },
+  { institution: "Senai Capivari de baixo", training: "Técnico Automação", city: "Tubarão" },
   { institution: "E.E.B Domingos Barbosa Cabral", training: "Ensino Médio", city: "Pescaria Brava" },
 ];
 const Education = () => {
