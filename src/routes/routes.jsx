@@ -8,7 +8,6 @@ export default function MainRoutes() {
             <Routes>
                 <Route path="*" element={<MainContext/>} />
                 <Route path="/Portifolio/Gmail" element={<Gmail />} />
-
             </Routes>
         </BrowserRouter>
     )
